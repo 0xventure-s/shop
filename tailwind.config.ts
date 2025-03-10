@@ -12,6 +12,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'gradient-border': 'gradient-border 3s ease',
+        bounce: 'bounce 6s ease forwards',
+      },
+      keyframes: {
+        'gradient-border': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '100%': { backgroundPosition: '100% 50%' },
+        },
+      },
     },
   },
   plugins: [],
